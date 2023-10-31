@@ -41,6 +41,10 @@ body {
    text-decoration: none;
 }
 
+.header-adresses-link:hover{
+   color: rgba(0, 0, 0, 0.8);
+}
+
 .header-main-container {
    display: flex;
    flex-direction: row;
