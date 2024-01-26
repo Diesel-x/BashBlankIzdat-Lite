@@ -78,7 +78,13 @@ body {
   align-items: center;
   flex-direction: column;
   display: flex;
+  font-family: "Roboto", sans-serif;
   background-color: rgb(234, 242, 250);
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .logo {
@@ -100,17 +106,6 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #fff;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-}
-h1 {
-  font-family: "Roboto", sans-serif;
-}
-
-h2 {
-  font-family: "Roboto", sans-serif;
 }
 
 .hero {
