@@ -33,6 +33,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   background-color: rgba(81, 114, 152, 1);
   color: #fff;
   padding: 20px 20px;
@@ -41,7 +42,6 @@
 .header-main-container button {
   background-color: rgb(96, 133, 175);
   border: none;
-  align-items: center;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -244,9 +244,10 @@ footer {
 
 .ya-adresses {
   border: 6px solid rgba(28, 110, 164, 0.75);
-  border-radius: 10px;
-  height: 40vh;
-  width: 97%;
+  border-radius: 0px;
+  height: 50vh;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .centered-element {
@@ -256,6 +257,11 @@ footer {
 }
 
 .adresses_yandex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   margin-top: 20px;
 }
 
@@ -264,4 +270,5 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   padding: 15px;
+  margin-top: 20px;
 }
