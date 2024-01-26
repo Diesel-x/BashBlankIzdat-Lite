@@ -1,3 +1,14 @@
+main {
+  max-width: 1000px;
+}
+
+header {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
 .header-mini {
   background: #d9d9d9;
   display: flex;
@@ -62,6 +73,9 @@
 body {
   margin: 0;
   padding: 0;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
 }
 
 .logo {
